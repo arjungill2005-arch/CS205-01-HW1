@@ -1,0 +1,15 @@
+Assignment Answers:
+
+1. Class that has a property that has the same type in the class. In the VehicleNode class, the "next" property's type is VehicleNode.
+
+2. I would use an array because it is a lot easier and quicker to access a random passenger when dealing with a large boat size.
+
+3. Because the passengers are stored in an unordered list, you have to go through a linear time complexity (Big O(n))
+
+4. We can throw an unchecked Exception also known as a RunTimeException to identify that an anomaly occurred in a constructor
+
+5. The Big O of the size() method is O(n). Because in order to count the size you have to visit each node in the list and if there are (n) Nodes, where each operation is a constant node.
+
+6. The Big O of the removeFirst() method is O(1). Because every step is constant and never run any iterration on the list of this method.
+
+7. Whenever we are getting the first, last, or removing the first vehicle on an empty linked list, we would return null because there is no node excisting yet.
