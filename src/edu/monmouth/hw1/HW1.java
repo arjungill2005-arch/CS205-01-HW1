@@ -36,7 +36,7 @@ public class HW1 {
 		// System.out.println("Entire list: \n" + vehicleList);
 		
 		// instantiate Vehicles and insert them into the list
-		Vehicle fishingBoat=null, battleShip=null, cruiseShip=null, tesla=null, camaro=null, f350=null;
+		Vehicle fishingBoat=null, battleShip=null, cruiseShip=null, tesla=null, camaro=null, f350=null, plane1=null, plane2=null;
 
 		try {
 			fishingBoat=new Boat(PowerTypes.GASOLINE, 12);
@@ -45,6 +45,10 @@ public class HW1 {
 			tesla=new Car(PowerTypes.ELECTRICITY, 12);
 			camaro=new Car(PowerTypes.GASOLINE, 10);
 			f350=new Car(PowerTypes.DEISEL, 4);
+			// 2-3 plane objects
+			plane1 = new Plane(PowerTypes.GASOLINE);
+			plane2 = new Plane(PowerTypes.DEISEL);
+
 		} catch(BoatException be) {
 			System.out.println(be.getMessage());
 			be.printStackTrace();
@@ -72,7 +76,15 @@ public class HW1 {
 		vehicleList.insert(cruiseShip);
 		vehicleList.insert(tesla);
 		vehicleList.insert(f350);
-			
+
+		// insert planes
+		vehicleList.insert(plane1);
+		vehicleList.insert(plane2);
+		// OUTPUT new Planes
+		System.out.println("Vehicle List after adding planes");
+		System.out.println(vehicleList);
+
+
 		System.out.println("After inserting Vehicles: \n" + vehicleList.toString());
 		
 		vehicleList.insertEnd(camaro);

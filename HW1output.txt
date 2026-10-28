@@ -7,22 +7,24 @@ Invalid boat size
 edu.monmouth.vehicle.BoatException: Invalid boat size
 	at edu.monmouth.vehicle.Boat.setBoatLength(Boat.java:19)
 	at edu.monmouth.vehicle.Boat.<init>(Boat.java:9)
-	at edu.monmouth.hw1.HW1.main(HW1.java:58)
+	at edu.monmouth.hw1.HW1.main(HW1.java:62)
 Invalid engine size
 edu.monmouth.vehicle.CarException: Invalid engine size
 	at edu.monmouth.vehicle.Car.setEngineSize(Car.java:19)
 	at edu.monmouth.vehicle.Car.<init>(Car.java:9)
-	at edu.monmouth.hw1.HW1.main(HW1.java:64)
+	at edu.monmouth.hw1.HW1.main(HW1.java:68)
+Vehicle List after adding planes
+(Plane - Power Source: DEISEL) --> (Plane - Power Source: GASOLINE) --> (Car - Engine Size: 4, Power Source: DEISEL) --> (Car - Engine Size: 12, Power Source: ELECTRICITY) --> (Boat - Length: 500, Power Source: DEISEL) --> (Boat - Length: 12, Power Source: GASOLINE) --> 
 After inserting Vehicles: 
-(Car - Engine Size: 4, Power Source: DEISEL) --> (Car - Engine Size: 12, Power Source: ELECTRICITY) --> (Boat - Length: 500, Power Source: DEISEL) --> (Boat - Length: 12, Power Source: GASOLINE) --> 
+(Plane - Power Source: DEISEL) --> (Plane - Power Source: GASOLINE) --> (Car - Engine Size: 4, Power Source: DEISEL) --> (Car - Engine Size: 12, Power Source: ELECTRICITY) --> (Boat - Length: 500, Power Source: DEISEL) --> (Boat - Length: 12, Power Source: GASOLINE) --> 
 After adding another Vehicle to end: 
-(Car - Engine Size: 4, Power Source: DEISEL) --> (Car - Engine Size: 12, Power Source: ELECTRICITY) --> (Boat - Length: 500, Power Source: DEISEL) --> (Boat - Length: 12, Power Source: GASOLINE) --> (Car - Engine Size: 10, Power Source: GASOLINE) --> 
-First: Car - Engine Size: 4, Power Source: DEISEL
+(Plane - Power Source: DEISEL) --> (Plane - Power Source: GASOLINE) --> (Car - Engine Size: 4, Power Source: DEISEL) --> (Car - Engine Size: 12, Power Source: ELECTRICITY) --> (Boat - Length: 500, Power Source: DEISEL) --> (Boat - Length: 12, Power Source: GASOLINE) --> (Car - Engine Size: 10, Power Source: GASOLINE) --> 
+First: Plane - Power Source: DEISEL
 Last: Car - Engine Size: 10, Power Source: GASOLINE
-Removed first: Car - Engine Size: 4, Power Source: DEISEL
+Removed first: Plane - Power Source: DEISEL
 list after removing first: 
-(Car - Engine Size: 12, Power Source: ELECTRICITY) --> (Boat - Length: 500, Power Source: DEISEL) --> (Boat - Length: 12, Power Source: GASOLINE) --> (Car - Engine Size: 10, Power Source: GASOLINE) --> 
+(Plane - Power Source: GASOLINE) --> (Car - Engine Size: 4, Power Source: DEISEL) --> (Car - Engine Size: 12, Power Source: ELECTRICITY) --> (Boat - Length: 500, Power Source: DEISEL) --> (Boat - Length: 12, Power Source: GASOLINE) --> (Car - Engine Size: 10, Power Source: GASOLINE) --> 
 list after adding another Vehicle: 
-(Boat - Length: 900, Power Source: FUELOIL) --> (Car - Engine Size: 12, Power Source: ELECTRICITY) --> (Boat - Length: 500, Power Source: DEISEL) --> (Boat - Length: 12, Power Source: GASOLINE) --> (Car - Engine Size: 10, Power Source: GASOLINE) --> 
-Number of Vehicles in list: 5
+(Boat - Length: 900, Power Source: FUELOIL) --> (Plane - Power Source: GASOLINE) --> (Car - Engine Size: 4, Power Source: DEISEL) --> (Car - Engine Size: 12, Power Source: ELECTRICITY) --> (Boat - Length: 500, Power Source: DEISEL) --> (Boat - Length: 12, Power Source: GASOLINE) --> (Car - Engine Size: 10, Power Source: GASOLINE) --> 
+Number of Vehicles in list: 7
 Is list empty: false
